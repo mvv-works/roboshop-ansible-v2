@@ -4,4 +4,5 @@
   # this should load another role called common
 - name: import common role
   import_role:
-    name: common 
+    name: common
+    tasks_from: hello.yaml 
