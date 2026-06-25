@@ -20,7 +20,7 @@
   loop:
   - mysql
 
-  - name: install python dependencies
+- name: install python dependencies
     pip:
       name: PyMySQL
       executable: pip3.9 
