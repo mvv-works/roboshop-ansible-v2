@@ -16,5 +16,5 @@
 - name: enable and restart
   service:
     name: user
-    enable: yes
+    enabled: yes
     state: restarted
