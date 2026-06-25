@@ -8,7 +8,7 @@
     name: common
     tasks_from: nodejs
 
-- name: systemd setup
+- name: systemd-setup
   import_role:
     name: common
     tasks_from: systemd-setup
